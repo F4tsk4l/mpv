@@ -15,7 +15,7 @@ local assdraw = require("mp.assdraw")
 local opts = require("mp.options")
 opts.read_options(settings, "simplemenu")
 
-local file = assert(io.open(mp.command_native({"expand-path", "~~/scripts/script-opts"}) .. "/menu.json"))
+local file = assert(io.open(mp.command_native({"expand-path", "~~/script-opts"}) .. "/menu.json"))
 local json = file:read("*all")
 file:close()
 local menu_items = utils.parse_json(json)
