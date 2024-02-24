@@ -9,7 +9,7 @@ local settings = {
   -- to bind multiple keys separate them by a space
 
   -- main key to show playlist
-  key_showplaylist = "SHIFT+ENTER F7",
+  key_showplaylist = "SHIFT+ENTER",
 
   -- display playlist while key is held down
   key_peek_at_playlist = "",
@@ -28,11 +28,11 @@ local settings = {
   key_closeplaylist = "ESC SHIFT+ENTER",
 
   -- extra functionality keys
-  key_sortplaylist = "F5",
-  key_shuffleplaylist = "F4",
-  key_reverseplaylist = "F6",
-  key_loadfiles = "F2",
-  key_saveplaylist = "F3",
+  key_sortplaylist = "",
+  key_shuffleplaylist = "",
+  key_reverseplaylist = "",
+  key_loadfiles = "",
+  key_saveplaylist = "",
 
   --replaces matches on filenames based on extension, put as empty string to not replace anything
   --replace rules are executed in provided order
