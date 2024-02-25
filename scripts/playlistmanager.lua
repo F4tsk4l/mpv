@@ -130,7 +130,7 @@ local settings = {
   loop_cursor = true,
 
   --youtube-dl executable for title resolving if enabled, probably "youtube-dl" or "yt-dlp", can be absolute path
-  youtube_dl_executable = "youtube-dl",
+  youtube_dl_executable = "yt-dlp",
 
   -- allow playlistmanager to write watch later config when navigating between files
   allow_write_watch_later_config = true,
@@ -173,7 +173,7 @@ local settings = {
   --\\q2 style is recommended since filename wrapping may lead to unexpected rendering
   --\\an7 style is recommended to align to top left otherwise, osd-align-x/y is respected
   --style_ass_tags = "{\\q2\\an7}",
-  style_ass_tags = "{\\q2\\an7\\fnNoto Sans\\fs18\\b1}",
+  style_ass_tags = "{\\q2\\an7\\fnNoto Sans\\fs18\\b0\\bord1\\fc&0000000&}",
 
 
   --paddings for left right and top bottom, depends on alignment 
