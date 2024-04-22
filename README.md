@@ -1,2 +1,2 @@
 ## MPV
-My mpv config, configured to work very simillar to vlc hotkeys.
+My mpv config, configured to work very simillar to vlc hotkeys and much more.
