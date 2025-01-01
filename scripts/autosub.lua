@@ -53,7 +53,7 @@ local excludes = {
     -- will be excluded from auto-downloading subtitles.
     -- Full paths are also allowed, e.g.:
     -- '/home/david/Videos',
-    'no-subs-dl',
+    --'no-subs-dl',
 }
 local includes = {
     -- If anything is defined here, only the movies with a path
